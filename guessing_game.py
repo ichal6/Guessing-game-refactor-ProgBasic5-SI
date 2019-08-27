@@ -22,5 +22,8 @@ def check_guess_number(end_of_range):
         print("you guessed it!")
 
 
-check_guess_number(99)
-check_guess_number(49)
+first_max_range = 99
+second_max_range = 49
+
+check_guess_number(first_max_range)
+check_guess_number(second_max_range)

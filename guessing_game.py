@@ -20,8 +20,6 @@ for index_of_number in range(COUNT_NUMBER_TO_GUESS):
         elif guess > list_random_int[index_of_number]:
             print("guess is high")
             guess = int(input("Enter an integer from 1 to 99: "))
-        else:
-            break
     print("you guessed it!")
 
 list_random_int = []
@@ -44,6 +42,4 @@ for index_of_number in range(COUNT_NUMBER_TO_GUESS):
         elif guess > list_random_int[index_of_number]:
             print("guess is high")
             guess = int(input("Enter an integer from 1 to 49: "))
-        else:
-            break
     print("you guessed it!")

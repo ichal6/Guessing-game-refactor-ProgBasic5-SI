@@ -23,24 +23,24 @@ for i in range(10):
             break
     print("you guessed it!")
 
-b = []
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
-b.append(random.randint(1, 49))
+list_random_int = []
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
+list_random_int.append(random.randint(1, 49))
 for i in range(10):
     g = int(input("Enter an integer from 1 to 49: "))
-    while b[i] != g:
-        if g < b[i]:
+    while list_random_int[i] != g:
+        if g < list_random_int[i]:
             print("guess is low")
             g = int(input("Enter an integer from 1 to 49: "))
-        elif g > b[i]:
+        elif g > list_random_int[i]:
             print("guess is high")
             g = int(input("Enter an integer from 1 to 49: "))
         else:

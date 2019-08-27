@@ -1,22 +1,22 @@
 import random
-a = []
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
-a.append(random.randint(1, 99))
+list_random_int = []
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
+list_random_int.append(random.randint(1, 99))
 for i in range(10):
     g = int(input("Enter an integer from 1 to 99: "))
-    while a[i] != g:
-        if g < a[i]:
+    while list_random_int[i] != g:
+        if g < list_random_int[i]:
             print("guess is low")
             g = int(input("Enter an integer from 1 to 99: "))
-        elif g > a[i]:
+        elif g > list_random_int[i]:
             print("guess is high")
             g = int(input("Enter an integer from 1 to 99: "))
         else:

@@ -1,8 +1,8 @@
 import random
-COUNT_NUMBER_TO_GUESS = 10
 
 
 def check_guess_number(end_of_range):
+    COUNT_NUMBER_TO_GUESS = 10
     list_random_int = []
     iteration = 0
     while iteration < COUNT_NUMBER_TO_GUESS:

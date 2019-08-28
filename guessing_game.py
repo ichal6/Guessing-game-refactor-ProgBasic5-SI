@@ -23,11 +23,10 @@ def check_guess_number(end_of_range):
 
 
 def main():
-    first_max_range = 99
-    second_max_range = 49
+    values_max_range = [99, 49]
 
-    check_guess_number(first_max_range)
-    check_guess_number(second_max_range)
+    for max in values_max_range:
+        check_guess_number(max)
 
 
 if __name__ == '__main__':
